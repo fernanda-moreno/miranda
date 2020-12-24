@@ -2,16 +2,16 @@
 
 4th-year Chemical Engineering student @ Georgia Tech
 
-# Made with Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+## Made with Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
 
-## A clean, beautiful and responsive portfolio template for Developers
+### A clean, beautiful and responsive portfolio template for Developers
 
 <h2 align="center">
   <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
   <br>
 </h2>
 
-## Features
+### Features
 
 ⚡️ Modern UI Design + Reveal Animations\
 ⚡️ One Page Layout built with React\
@@ -27,11 +27,11 @@ To view a live example, **[click here](https://cobidev.com/)**
 
 ---
 
-## Getting Started 🚀
+### Getting Started 🚀
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites 📋
+#### Prerequisites 📋
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.\
 Also you need to have installed [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/)
@@ -51,7 +51,7 @@ yarn@v1.21.1 or higher
 
 ---
 
-## How To Use 🔧
+### How To Use 🔧
 
 From your command line, first clone Simplefolio:
 
@@ -104,9 +104,9 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 
 ---
 
-## Instructions:
+### Instructions:
 
-### Step 1 - STRUCTURE
+#### Step 1 - STRUCTURE
 
 Go to `/src/mock/data.js` and fill your information, they are 5 objects:
 
@@ -121,7 +121,7 @@ export const heroData = {
 };
 ```
 
-### About Section
+#### About Section
 
 **_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
 
@@ -135,7 +135,7 @@ export const aboutData = {
 };
 ```
 
-### Projects Section
+#### Projects Section
 
 **_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
 
@@ -165,7 +165,7 @@ export const projectsData = [
 ];
 ```
 
-### Contact Section
+#### Contact Section
 
 ```javascript
 export const contactData = {
@@ -175,7 +175,7 @@ export const contactData = {
 };
 ```
 
-### Footer Section
+#### Footer Section
 
 You can remove or add as many you social-media icons you want.\
 Just put an object with the corresponding values inside the networks `array` or remove it from there.
@@ -207,7 +207,7 @@ export const footerData = {
 };
 ```
 
-### Required - Disable GitHub buttons
+#### Required - Disable GitHub buttons
 
 Set `isEnabled` to `false` once you finish setup your portfolio.\
 By setting to `false` it will hide the GitHub stars/fork buttons
@@ -218,7 +218,7 @@ export const githubButtons = {
 };
 ```
 
-### Step 2 - STYLES
+#### Step 2 - STYLES
 
 Change the color theme of the website ( choose 2 colors to create a gradient ):
 
@@ -234,18 +234,18 @@ $secondary-color: #00cdac;
 
 ---
 
-## Deployment 📦
+### Deployment 📦
 
 Once you have done with your setup. You need to put your website online!
 
 I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
 
-## Others versions 👥
+### Others versions 👥
 
 [Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
 [Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
 
-## Technologies used 🛠️
+### Technologies used 🛠️
 
 - [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
 - [GraphQL](https://graphql.org/) - Query language for APIs
@@ -253,18 +253,14 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
 
-## Authors
+### Authors
 
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
-## Status
+### Status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
 
-## License 📄
+### License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments 🎁
-
-I was motivated to create this project because I wanted to contribute on something useful for the dev community, thanks to [ZTM Community](https://github.com/zero-to-mastery) and [Andrei](https://github.com/aneagoie)
