@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: `Miranda Munoz`, // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,18 +10,19 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Miranda Munoz',
+  subtitle: `I'm a Chemical Engineer`,
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: `Hi! I'm a 4th year Chemical Engineering student at Georgia Tech. During my junior year, I became
+  a Manufacturing Engineering Co-Op at Ascend Performance Materials.`,
+  paragraphTwo: `On campus, I'm involved with the LGBTQIA Resource Center, AICHE, and the Event Plannning Student Advisory Board.`,
+  paragraphThree: 'In my free time, I love solving puzzles and playing Minecraft!',
+  resume: 'https://www.linkedin.com/in/miranda-munoz/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -59,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'mmunoz37@gatech.edu',
 };
 
 // FOOTER DATA
@@ -67,22 +68,17 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/miranda-munoz/',
     },
     {
       id: nanoid(),
-      name: 'github',
+      name: 'envelope',
+      url: 'mailto:mmunoz37@gatech.edu',
+    },
+    {
+      id: nanoid(),
+      name: 'file-text',
       url: '',
     },
   ],
