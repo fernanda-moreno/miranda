@@ -82,6 +82,8 @@ const Experiences = () => {
                   >
                     <div className="experience-wrapper__image">
                       <a
+                        href={url || '#!'}
+                        target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
