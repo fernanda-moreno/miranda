@@ -20,6 +20,7 @@
   background: url("https://www.howden.com/Howden/media/Howden/img/Process/Refinery/Refinery_SocialShare_700x400px.jpg?ext=.jpg");
   background-position: center;
   background-size: cover;
+  border-radius: 0;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;

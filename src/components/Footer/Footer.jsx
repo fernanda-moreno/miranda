@@ -41,7 +41,7 @@ const Footer = () => {
           © {new Date().getFullYear()} - Miranda Munoz</p>
         <p className="footer__text">
           <br></br>
-          Customized & Deployed with ❤️ by <a href="https://github.com/fernanda-moreno/miranda" target="_blank" rel="noopener noreferrer">
+          Customized & Deployed with ❤️ by <a href="https://fernanda-moreno.github.io/" target="_blank" rel="noopener noreferrer">
           Fernanda Moreno
           </a>
           <br></br>
