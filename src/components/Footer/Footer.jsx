@@ -40,9 +40,13 @@ const Footer = () => {
         <p>
           © {new Date().getFullYear()} - Miranda Munoz</p>
         <p className="footer__text">
-          <br></br>Template by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+          <br></br>
+          Customized & Deployed with ❤️ by <a href="https://github.com/fernanda-moreno/miranda" target="_blank" rel="noopener noreferrer">
+          Fernanda Moreno
+          </a>
+          <br></br>
+          <a href="https://github.com/cobidev/gatsby-simplefolio" target="_blank" rel="noopener noreferrer">
+            Template Source
           </a>
         </p>
 

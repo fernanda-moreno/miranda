@@ -6,8 +6,8 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+const Experiences = () => {
+  const { experiences } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -23,12 +23,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="experiences">
       <Container>
-        <div className="project-wrapper">
-          <Title title="Projects" />
-          {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+        <div className="experience-wrapper">
+          <Title title="Experiences" />
+          {experiences.map((experience) => {
+            const { title, info, info2, url, repo, img, id } = experience;
 
             return (
               <Row key={id}>
@@ -40,8 +40,8 @@ const Projects = () => {
                     delay={200}
                     distance="30px"
                   >
-                    <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                    <div className="experience-wrapper__text">
+                      <h3 className="experience-wrapper__text-title">{title || 'Experience Title'}</h3>
                       <div>
                         <p>
                           {info ||
@@ -80,10 +80,8 @@ const Projects = () => {
                     delay={200}
                     distance="30px"
                   >
-                    <div className="project-wrapper__image">
+                    <div className="experience-wrapper__image">
                       <a
-                        href={url || '#!'}
-                        target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
@@ -117,4 +115,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Experiences;
